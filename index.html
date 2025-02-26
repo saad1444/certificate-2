@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Excellence</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            background: linear-gradient(to right, #f8e8a6, #eae0c8);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .certificate {
+            width: 950px;
+            height: 650px;
+            padding: 50px;
+            background: #fff;
+            border: 20px double gold;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            position: relative;
+            background-image: url('https://www.transparenttextures.com/patterns/white-linen.png');
+            border-radius: 15px;
+        }
+        h1 {
+            font-size: 55px;
+            color: gold;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+        }
+        .subheading {
+            font-size: 26px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            color: #444;
+        }
+        .details {
+            font-size: 22px;
+            margin: 30px 0;
+            line-height: 1.8;
+            font-weight: bold;
+            color: #222;
+        }
+        .percentage {
+            font-size: 30px;
+            color: #4CAF50;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .footer {
+            font-size: 24px;
+            font-weight: 600;
+            color: #333;
+            margin-top: 10px;
+        }
+        .signature {
+            position: absolute;
+            bottom: 30px;
+            right: 60px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .stamp {
+            position: absolute;
+            bottom: 50px;
+            left: 60px;
+            width: 120px;
+            height: 120px;
+            background: url('https://i.ibb.co/Qp4VwnG/stamp.png') no-repeat center;
+            background-size: contain;
+        }
+        .qr-code {
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90px;
+            height: 90px;
+            background: url('https://api.qrserver.com/v1/create-qr-code/?size=90x90&data=https://saylani.com') no-repeat center;
+            background-size: contain;
+        }
+        .motto {
+            font-size: 22px;
+            font-style: italic;
+            color: #555;
+            margin-top: 15px;
+        }
+        .date {
+            position: absolute;
+            bottom: 30px;
+            left: 60px;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <h1>Certificate of Excellence</h1>
+        <p class="subheading">Saylani Mass IT Training</p>
+        <p class="details">This is to certify that <strong>Saad</strong>, son of <strong>Nasir</strong>, has successfully completed the "Introduction to Programming" course with an outstanding performance, demonstrating dedication and excellence in the field of web development.</p>
+        <p class="motto">"With passion and persistence, anything is achievable."</p>
+        <p class="percentage">Percentage: 81%</p>
+        <p class="footer">Status: Pass</p>
+        <div class="stamp"></div>
+        <div class="qr-code"></div>
+        <div class="date">Date: 26th February 2025</div>
+        <div class="signature">
+            <span>Authorized Signature</span>
+            <br>
+            <span>Instructor: Sir Shariq</span>
+        </div>
+    </div>
+</body>
+</html>
